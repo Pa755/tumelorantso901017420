@@ -1,0 +1,47 @@
+body {font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+
+        nav {background-color: rgb(125, 102, 224);}
+
+nav ul { list-style: none;
+        padding: 0%;}
+
+nav ul li a { color: rgb(72, 25, 116);
+             text-decoration: none;}
+ 
+             nav{
+                float: above;
+                line-height: 100px;
+            }
+            nav a{
+                text-decoration: none;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                letter-spacing: 4px;
+                font-size: 20px;
+                color: #f5ebeb;
+                padding: 36px 10px;
+                margin: 0% 1px;
+            }
+            nav a:hover{
+                background-color: #f30f0f;
+                color: #02010e;
+                font-weight: 500;
+            }
+
+section { padding: 20px;}
+
+footer { background-color: aqua;
+         color: black;
+        text-align: center;
+    padding: 10 px o;}
+
+.typewriter { font-size: 2em;
+              color: 333;
+              white-space: nowrap;
+              overflow: hidden;
+              border-right: 4px solid;
+              animation: typing 3s steps(30,start);} 
+ @keyframes typing { from { width: 0; } to { width: 100%;}}             
+@keyframes blink-caret { from, to { border-color: transparent;} 50% { border-color: black;}}
